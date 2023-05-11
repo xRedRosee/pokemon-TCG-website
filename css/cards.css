@@ -1,0 +1,337 @@
+@import url("https://use.typekit.net/lhd6ecn.css");
+:root {
+  --font-serif: "ratiomodern", serif;
+  --font-sansserif: "elza-narrow", sans-serif;
+  --font-chic: "finalsix", sans-serif;
+  --lightblue: #a3dff0;
+  --white: white;
+  --darkblue: #171d24;
+}
+
+/* -------------------------------------------- top header block */
+.top-header {
+  width: 100%;
+  position: relative;
+  height: 450px;
+}
+
+.meshgradient {
+  width: 100%;
+  height: 100%;
+}
+
+.top-header-text {
+  position: absolute;
+  top: 40%;
+  color: var(--lightblue);
+  margin-left: 60px;
+}
+
+.top-header-h1 {
+  font-family: var(--font-chic);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 0;
+}
+
+.top-header-p {
+  font-family: var(--font-chic);
+  font-weight: 300;
+  margin: 0;
+}
+
+/* -------------------------------------------- series cards  */
+.series-block {
+  margin-bottom: 40px;
+}
+
+/* --------- series */
+.series {
+  list-style: none;
+  padding: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.series-card {
+}
+
+.series-btn {
+  background: none;
+  outline: none;
+  border: 2px solid var(--lightblue);
+  border-radius: 20px;
+  width: 560px;
+  height: 309px;
+  cursor: pointer;
+}
+
+.series-btn:hover {
+  border: 3px solid var(--white);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.series-card-img {
+  height: 300px;
+  cursor: pointer;
+}
+
+/* -------------------------------------------- sets cards  */
+.sets {
+  list-style: none;
+  padding: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sets-card {
+}
+
+.sets-btn {
+  background: none;
+  outline: none;
+  border: 2px solid var(--lightblue);
+  border-radius: 20px;
+  width: 560px;
+  height: 309px;
+  cursor: pointer;
+}
+.sets-btn:hover {
+  border: 3px solid var(--white);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.sets-card-img {
+  height: 300px;
+  cursor: pointer;
+}
+
+.return-series-btn {
+  background: none;
+  outline: none;
+  border: 2px solid var(--lightblue);
+  border-radius: 20px;
+  color: var(--lightblue);
+  font-family: var(--font-chic);
+  font-size: 20px;
+  height: 40px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 150px;
+  margin-top: 20px;
+}
+.return-series-btn:hover {
+  border: 2px solid var(--white);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.return-sets-btn {
+  background: none;
+  outline: none;
+  border: 2px solid var(--lightblue);
+  border-radius: 20px;
+  color: var(--lightblue);
+  font-family: var(--font-chic);
+  font-size: 20px;
+  height: 40px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 150px;
+  margin-top: 20px;
+}
+.return-sets-btn:hover {
+  border: 2px solid var(--white);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.return-cards-btn {
+  background: none;
+  outline: none;
+  border: 2px solid var(--lightblue);
+  border-radius: 20px;
+  color: var(--lightblue);
+  font-family: var(--font-chic);
+  font-size: 20px;
+  height: 40px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 150px;
+  margin-top: 20px;
+}
+.return-cards-btn:hover {
+  border: 2px solid var(--white);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* ------------------------------------------------------- tcg card */
+.cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.tcg-card {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-chic);
+  color: var(--lightblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.tcg-card-btn {
+  background: none;
+  outline: none;
+  border: 2px solid var(--lightblue);
+  border-radius: 20px;
+  font-family: var(--font-chic);
+  color: var(--lightblue);
+  cursor: pointer;
+}
+.tcg-card-btn:hover {
+  border: 2px solid var(--white);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.tcg-leftside {
+  margin: 0;
+  padding: 0;
+}
+
+.tcg-card-name {
+}
+
+.tcg-card-img {
+  height: 450px;
+}
+
+/* ---------------------------------------------- card specifications */
+.card-info {
+  color: var(--lightblue);
+  font-family: var(--font-chic);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-general {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-name {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card-img {
+  height: 460px;
+}
+
+.card-information {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.card-number {
+}
+
+.card-rarity {
+}
+
+@media screen and (max-width: 768px) {
+  /*----------------- top header block */
+  .top-header-text {
+    margin-left: 20px;
+  }
+
+  .top-header-h1 {
+    font-size: 40px;
+  }
+
+  /* ------------------- series card */
+  .series-btn {
+    width: 364px;
+    height: 200px;
+  }
+
+  .series-card-img {
+    height: 180px;
+  }
+
+  /* -------------------- set card */
+  .sets-btn {
+    width: 364px;
+    height: 200px;
+  }
+
+  .sets-card-img {
+    height: 180px;
+  }
+
+  /* ------------------------ tcg card */
+  .tcg-card-name {
+    font-size: 16px;
+  }
+
+  .tcg-card-img {
+    height: 260px;
+  }
+
+  /* ----------------------------- card info */
+  .card-info {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-general {
+    margin-left: 0;
+    width: auto;
+  }
+
+  .card-information {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

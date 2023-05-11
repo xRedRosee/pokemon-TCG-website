@@ -1,0 +1,351 @@
+{
+    "allseries": [
+        {
+            "serie": "Scarlet & Violet",
+            "img": "img/scvi.png"
+        },
+        {
+            "serie": "Sword & Shield",
+            "img": "img/swsh.png"
+        },
+        {
+            "serie": "Sun & Moon",
+            "img": "img/sm.png"
+        },
+        {
+            "serie": "X & Y",
+            "img": "img/xy.png"
+        }
+    ],
+    "sets":[
+        {
+            "setID": "SV1",
+            "series": "Scarlet & Violet",
+            "setName": "Scarlet & Violet",
+            "releaseDate": "31/3/2023",
+            "img": "img/scvi.png",
+            "cardList": [
+                {
+                    "cardID": "1/198",
+                    "pokemonName": "Pineco",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Pineco.SV1EN.1.47074.png",
+                    "value": [0.10, 0.22, 0.15, 0.23, 0.22]
+                },
+                {
+                    "cardID": "2/198",
+                    "pokemonName": "Heracross",
+                    "rarity": "Uncommon",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Heracross.SV1EN.2.47075.png",
+                    "value": [0.20, 0.12, 0.16, 0.22, 0.40]
+                },
+                {
+                    "cardID": "3/198",
+                    "pokemonName": "Shroomish",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Shroomish.SV1EN.3.47022.png",
+                    "value": [0.20, 0.40, 0.44, 0.53, 0.60]
+                },
+                {
+                    "cardID": "4/198",
+                    "pokemonName": "Breloom",
+                    "rarity": "Uncommon",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Breloom.SV1EN.4.47076.png",
+                    "value": [0.15, 0.22, 0.24, 0.31, 0.50]
+                },
+                {
+                    "cardID": "5/198",
+                    "pokemonName": "Cacnea",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Cacnea.SV1EN.5.47077.png",
+                    "value": [0.12, 0.21, 0.32, 0.40, 0.44]
+                },
+                {
+                    "cardID": "6/198",
+                    "pokemonName": "Cacturne",
+                    "rarity": "Uncommon",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Cacturne.SV1EN.6.47078.png",
+                    "value": [0.15, 0.20, 0.26, 0.54, 0.70]
+                },
+                {
+                    "cardID": "7/198",
+                    "pokemonName": "Tropius",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Tropius.SV1EN.7.47079.png",
+                    "value": [0.10, 0.14, 0.20, 0.24, 0.30]
+                },
+                {
+                    "cardID": "8/198",
+                    "pokemonName": "Scatterbug",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Scatterbug.SV1EN.8.47080.png",
+                    "value": [0.09, 0.12, 0.14, 0.17, 0.20]
+                },
+                {
+                    "cardID": "9/198",
+                    "pokemonName": "Spewpa",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Spewpa.SV1EN.9.47081.png",
+                    "value": [0.05, 0.10, 0.12, 0.13, 0.18]
+                },
+                {
+                    "cardID": "10/198",
+                    "pokemonName": "Vivillon",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Vivillon.SV1EN.10.47082.png",
+                    "value": [0.10, 0.15, 0.18, 0.15, 0.20]
+                },
+                {
+                    "cardID": "13/198",
+                    "pokemonName": "Sprigatito",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Sprigatito.SV1EN.13.46130.png",
+                    "value": [0.10, 0.15, 0.18, 0.20, 0.25]
+                },
+                {
+                    "cardID": "19/198",
+                    "pokemonName": "Spidops EX",
+                    "rarity": "Double Rare",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Spidops-ex.SV1EN.19.47017.png",
+                    "value": [0.40, 0.99, 1.20, 1.80, 2.50]
+                },
+                {
+                    "cardID": "31/198",
+                    "pokemonName": "Growlithe",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Growlithe.SV1EN.31.47101.png",
+                    "value": [0.08, 0.19, 0.20, 0.18, 0.25]
+                },
+                {
+                    "cardID": "32/198",
+                    "pokemonName": "Arcanine EX",
+                    "rarity": "Double Rare",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Arcanine.SV1EN.32.47102.png",
+                    "value": [1.08, 1.59, 2.40, 2.18, 2.99]
+                },
+                {
+                    "cardID": "36/198",
+                    "pokemonName": "Fuecoco",
+                    "rarity": "Common",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Fuecoco.SV1EN.36.46131.png",
+                    "value": [0.28, 0.21, 0.30, 0.18, 0.19]
+                },
+                {
+                    "cardID": "37/198",
+                    "pokemonName": "Crocalor",
+                    "rarity": "Uncommon",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Crocalor.SV1EN.37.47106.png",
+                    "value": [0.19, 0.15, 0.24, 0.28, 0.22]
+                },
+                {
+                    "cardID": "38/198",
+                    "pokemonName": "Skeledirge",
+                    "rarity": "Rare",
+                    "setID": "SV1",
+                    "img": "https://den-cards.pokellector.com/363/Skeledirge.SV1EN.38.47107.png",
+                    "value": [0.29, 0.35, 0.34, 0.50, 0.82]
+                }
+            ]
+        },
+        {
+            "setID": "SWSH5",
+            "series": "Sword & Shield",
+            "setName": "Sword & Shield - Shining Fates",
+            "releaseDate": "19/2/2021",
+            "img": "img/swsh-shiningfates.png"
+        },
+        {
+            "setID": "SWSH4",
+            "series": "Sword & Shield",
+            "setName": "Sword & Shield - Vivid Voltage",
+            "releaseDate": "13/11/2020",
+            "img": "img/swsh-vividvoltage.png"
+        },
+        {
+            "setID": "SWSH2",
+            "series": "Sword & Shield",
+            "setName": "Sword & Shield - Rebel Clash",
+            "releaseDate": "1/5/2020",
+            "img": "img/swsh-rebelclash.png"
+        },
+        {
+            "setID": "SWSH1",
+            "series": "Sword & Shield",
+            "setName": "Sword & Shield",
+            "releaseDate": "7/2/2020",
+            "img": "img/swsh.png"
+        },
+        {
+            "setID": "SM16",
+            "series": "Sun & Moon",
+            "setName": "Sun & Moon - Cosmic Eclipse",
+            "releaseDate": "1/11/2019",
+            "img": "img/sm-cosmiceclipse.png"
+        },
+        {
+            "setID": "SM15",
+            "series": "Sun & Moon",
+            "setName": "Sun & Moon - Hidden Fates",
+            "releaseDate": "23/8/2019",
+            "img": "img/sm-hiddenfates.png"
+        },
+        {
+            "setID": "XY14",
+            "series": "X & Y",
+            "setName": "X & Y - Evolutions",
+            "releaseDate": "2/11/2016",
+            "img": "img/xy-evolutions.png"
+        },
+        {
+            "setID": "XY13",
+            "series": "X & Y",
+            "setName": "X & Y - Steam Siege",
+            "releaseDate": "3/8/2016",
+            "img": "img/xy-steamsiege.png"
+        },
+        {
+            "setID": "XY12",
+            "series": "X & Y",
+            "setName": "X & Y - Fates Collide",
+            "releaseDate": "2/5/2016",
+            "img": "img/xy-fatescollide.png"
+        }
+    ],
+    "SV1": [
+        {
+            "cardID": "1/198",
+            "pokemonName": "Pineco",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Pineco.SV1EN.1.47074.png",
+            "value": [0.10, 0.22, 0.15, 0.23, 0.22]
+        },
+        {
+            "cardID": "2/198",
+            "pokemonName": "Heracross",
+            "rarity": "Uncommon",
+            "img": "https://den-cards.pokellector.com/363/Heracross.SV1EN.2.47075.png",
+            "value": [0.20, 0.12, 0.16, 0.22, 0.40]
+        },
+        {
+            "cardID": "3/198",
+            "pokemonName": "Shroomish",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Shroomish.SV1EN.3.47022.png",
+            "value": [0.20, 0.40, 0.44, 0.53, 0.60]
+        },
+        {
+            "cardID": "4/198",
+            "pokemonName": "Breloom",
+            "rarity": "Uncommon",
+            "img": "https://den-cards.pokellector.com/363/Breloom.SV1EN.4.47076.png",
+            "value": [0.15, 0.22, 0.24, 0.31, 0.50]
+        },
+        {
+            "cardID": "5/198",
+            "pokemonName": "Cacnea",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Cacnea.SV1EN.5.47077.png",
+            "value": [0.12, 0.21, 0.32, 0.40, 0.44]
+        },
+        {
+            "cardID": "6/198",
+            "pokemonName": "Cacturne",
+            "rarity": "Uncommon",
+            "img": "https://den-cards.pokellector.com/363/Cacturne.SV1EN.6.47078.png",
+            "value": [0.15, 0.20, 0.26, 0.54, 0.70]
+        },
+        {
+            "cardID": "7/198",
+            "pokemonName": "Tropius",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Tropius.SV1EN.7.47079.png",
+            "value": [0.10, 0.14, 0.20, 0.24, 0.30]
+        },
+        {
+            "cardID": "8/198",
+            "pokemonName": "Scatterbug",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Scatterbug.SV1EN.8.47080.png",
+            "value": [0.09, 0.12, 0.14, 0.17, 0.20]
+        },
+        {
+            "cardID": "9/198",
+            "pokemonName": "Spewpa",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Spewpa.SV1EN.9.47081.png",
+            "value": [0.05, 0.10, 0.12, 0.13, 0.18]
+        },
+        {
+            "cardID": "10/198",
+            "pokemonName": "Vivillon",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Vivillon.SV1EN.10.47082.png",
+            "value": [0.10, 0.15, 0.18, 0.15, 0.20]
+        },
+        {
+            "cardID": "13/198",
+            "pokemonName": "Sprigatito",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Sprigatito.SV1EN.13.46130.png",
+            "value": [0.10, 0.15, 0.18, 0.20, 0.25]
+        },
+        {
+            "cardID": "19/198",
+            "pokemonName": "Spidops EX",
+            "rarity": "Double Rare",
+            "img": "https://den-cards.pokellector.com/363/Spidops-ex.SV1EN.19.47017.png",
+            "value": [0.40, 0.99, 1.20, 1.80, 2.50]
+        },
+        {
+            "cardID": "31/198",
+            "pokemonName": "Growlithe",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Growlithe.SV1EN.31.47101.png",
+            "value": [0.08, 0.19, 0.20, 0.18, 0.25]
+        },
+        {
+            "cardID": "32/198",
+            "pokemonName": "Arcanine EX",
+            "rarity": "Double Rare",
+            "img": "https://den-cards.pokellector.com/363/Arcanine.SV1EN.32.47102.png",
+            "value": [1.08, 1.59, 2.40, 2.18, 2.99]
+        },
+        {
+            "cardID": "36/198",
+            "pokemonName": "Fuecoco",
+            "rarity": "Common",
+            "img": "https://den-cards.pokellector.com/363/Fuecoco.SV1EN.36.46131.png",
+            "value": [0.28, 0.21, 0.30, 0.18, 0.19]
+        },
+        {
+            "cardID": "37/198",
+            "pokemonName": "Crocalor",
+            "rarity": "Uncommon",
+            "img": "https://den-cards.pokellector.com/363/Crocalor.SV1EN.37.47106.png",
+            "value": [0.19, 0.15, 0.24, 0.28, 0.22]
+        },
+        {
+            "cardID": "38/198",
+            "pokemonName": "Skeledirge",
+            "rarity": "Rare",
+            "img": "https://den-cards.pokellector.com/363/Skeledirge.SV1EN.38.47107.png",
+            "value": [0.29, 0.35, 0.34, 0.50, 0.82]
+        }
+    ]
+}

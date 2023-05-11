@@ -1,0 +1,131 @@
+@import url("https://use.typekit.net/lhd6ecn.css");
+:root {
+  --font-serif: "ratiomodern", serif;
+  --font-sansserif: "elza-narrow", sans-serif;
+  --font-chic: "finalsix", sans-serif;
+  --lightblue: #a3dff0;
+  --white: white;
+  --darkblue: #171d24;
+}
+
+/* -------------------------------------------- top header block */
+.top-header {
+  width: 100%;
+  position: relative;
+  height: 450px;
+}
+
+.meshgradient {
+  width: 100%;
+  height: 100%;
+}
+
+.top-header-text {
+  position: absolute;
+  top: 40%;
+  color: var(--lightblue);
+  margin-left: 60px;
+}
+
+.top-header-h1 {
+  font-family: var(--font-chic);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 0;
+}
+
+.top-header-p {
+  font-family: var(--font-chic);
+  font-weight: 300;
+  margin: 0;
+}
+
+/* ------------------------------------------------- welcome block  */
+.welcome-block {
+  height: 130px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.welcome-content {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.lines {
+  height: 100px;
+  color: var(--lightblue);
+}
+
+.el {
+  height: 40px;
+}
+/* ----------------------------------------------------- poke balls info block */
+.slogan-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.slogan-text {
+  width: 50%;
+}
+
+.slogan-h1 {
+  color: var(--lightblue);
+  font-family: var(--font-chic);
+  font-size: 40px;
+  width: 80%;
+}
+
+.slogan-p {
+  color: var(--lightblue);
+  font-family: var(--font-chic);
+  font-size: 16px;
+  width: 80%;
+}
+
+.pokeballs {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.easing-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pokeball {
+  height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  /*----------------- top header block */
+  .top-header-text {
+    margin-left: 20px;
+  }
+
+  .top-header-h1 {
+    font-size: 40px;
+  }
+
+  /* ---------------- poke balls info block */
+  .slogan-block {
+    flex-direction: column;
+  }
+
+  .slogan-text {
+    width: 90%;
+  }
+
+  .pokeballs {
+    width: 100%;
+    margin-left: 0;
+  }
+}

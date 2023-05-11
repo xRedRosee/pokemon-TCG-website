@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <title>Pokemon TCG Explorer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <a class="nav-home" href="index.html"><h1 class="nav-heading">Pokemon TCG Explorer</h1></a>
+        <ul class="nav-items">
+          <li class="nav-li"><a class="nav-a" href="about.html">About TCG Explorer</a></li>
+          <li class="nav-li"><a class="nav-a" href="cards.html">Pokemon TCG sets</a></li>
+          <li class="nav-li"><a class="nav-a" href="cards.html">Latest set</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="top-header">
+          <img src="img/meshgradient.png" alt="dark mesh gradient background" class="meshgradient">
+          <article class="top-header-text">
+            <h1 class="top-header-h1">Pokemon TCG Explorer </h1>
+            <h2 class="top-header-h2"> NEXT LEVEL TCG DATA BASE </h2>
+            <p class="top-header-p"> All the data from the Pokemon TCG in one place! </p>
+          </article>
+      </section>
+      <section class="second-block">
+        <div class="second-leftside">
+          <div class="glide cards-slideshow">
+            <div class="glide__track card-carousel" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img src="img/vaporeon-v.png" alt="vaporeon v tradingcard" class="trading-card-carousel-img">
+                </li>
+                <li class="glide__slide">
+                  <img src="img/flareon-v.png" alt="flareon v tradingcard" class="trading-card-carousel-img">
+                </li>
+                <li class="glide__slide">
+                  <img src="img/jolteon-v.png" alt="jolteon v tradingcard" class="trading-card-carousel-img">
+                </li>
+                <li class="glide__slide">
+                  <img src="img/sylveon-v.png" alt="sylveon v tradingcard" class="trading-card-carousel-img">
+                </li>
+                <li class="glide__slide">
+                  <img src="img/umbreon-v.png" alt="umbreon v tradingcard" class="trading-card-carousel-img">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <article class="second-rightside">
+          <h1 class="second-header-h1"> FIND ALL THE POKEMON TRADING CARD GAMES IN ONE PLACE! </h1>
+          <p class="second-header-p"> You can search by name or series and see the values of the cards. </p>
+          <p class="second-header-p"> All the values are displayed in graphs to make it easier to see if they increased in value.</p>
+          <a href="cards.html" class="second-header-btn"> Trading Cards </a>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer-brandpart">
+        <h1 class="footer-h1"> Pokemon TCG Explorer </h1>
+        <p class="footer-p"> NEXT LEVEL TCG DATA BASE </p>
+      </ul>
+      <ul class="footer-navpart">
+        <h2 class="footer-h3"> Navigation </h2>
+        <li class="footer-li"><a class="footer-a" href="about.html">About TCG Explorer</a></li>
+        <li class="footer-li"><a class="footer-a" href="cards.html">Pokemon TCG sets</a></li>
+        <li class="footer-li"><a class="footer-a" href="">Latest set</a></li>
+      </ul>
+      <ul class="footer-contactpart">
+        <h2 class="footer-h3"> Contact us </h2>
+        <li class="footer-li"><address class="footer-a" > Rachelsmolen 1a Eindhoven </address></li>
+        <li class="footer-li"><address class="footer-a" > 5995 XV </address></li>
+        <li class="footer-li"><p class="footer-email" > thisemaildoesnotexist@gmail.com </p></li>
+      </ul>
+    </footer>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="homepage.js"></script>
+    <!-- <script src="carousel.js"></script> -->
+  </body>
+</html>
